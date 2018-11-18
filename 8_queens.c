@@ -11,7 +11,7 @@ void print(int *b)
   printf("\n");
 }
 
-int is_ok(int *b, int q, int p) // check digonally
+int is_ok(int *b, int q, int p) // check diagonally
 {
   int i, j;
   for (i=p-1, j=q-1; i>=0 && j>=1; --i, --j)
